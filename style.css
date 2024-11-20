@@ -1,0 +1,209 @@
+#title {
+    color: green;
+    align-items: center;
+    display: inline; 
+    font-size: 60px;
+    margin-left: 400px;
+    
+}
+#title2 {
+    color: green;
+  font-size: 60px;
+   display: inline; 
+   color: transparent;
+        text-shadow: 0 0 8px green;
+}
+#made {
+    color:green;
+    margin-left: 490px;
+    
+}
+#body {
+    background-color: white;
+    position: absolute;
+    overflow-x: hidden;
+}
+#input {
+    margin-left: 480px ;
+    border-radius: 5px;
+}
+#inputtext {
+  margin-left: 400px;
+  color: green;
+}
+
+ #sumbit {
+  color: green;
+  border-radius: 2px;
+  border: 10px;
+  border-color: black;
+  background-color: rgb(255, 255, 255);
+  font-size: large;
+ }
+ #sumbit:hover {
+  background-color: black;
+ }
+ #timetabel {
+  background-color: rgba(35, 35, 35, 0.1);
+  border: 1px solid rgba(235, 235, 235, 0.1);
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  font-size: 20px;
+  font-weight: 300;
+  height: 200px;
+  margin: auto;
+  position: relative;
+  text-transform: uppercase;
+  width:1005px;
+  box-shadow: inset 0 0 15px rgba(135, 135, 135, .1), 0 0 18px 3px rgba(0, 0, 0, .3);
+ }
+ #day1 {
+  border: 20px solid  rgba(233, 233, 233);
+  text-align: center;
+  width: 100px;
+  height: 100px;
+
+ }
+ #day2 {
+   border: 20px solid  rgba(233, 233, 233);
+   text-align: center;
+   width: 100px;
+   height: 100px;
+ }
+ #day3 {
+  border: 20px solid  rgba(233, 233, 233);
+  text-align: center;
+  width: 100px;
+  height: 100px;
+ }
+ #day4 {
+  border: 20px solid  rgba(233, 233, 233);
+  text-align: center;
+  width: 100px;
+  height: 100px;
+ }
+ #day5 {
+  border: 20px solid  rgba(233, 233, 233);
+  text-align: center;
+  width: 100px;
+  height: 100px;
+ }
+ #day6 {
+  border: 20px solid  rgba(233, 233, 233);
+  text-align: center;
+  width: 100px;
+  height: 100px;
+ }
+ #day7 {
+  border: 20px solid  rgba(233, 233, 233);
+  text-align: center;
+  width: 100px;
+  height: 100px;
+ }
+ #day8 {
+  border: 20px solid  rgba(233, 233, 233);
+  text-align: center;
+  width: 100px;
+  height: 100px
+ }
+ #headingpg2 {
+  color: green;
+  font-size: 60px;
+  font-family: serif;
+   text-align: center;
+ }
+ #queot {
+  color: green;
+  font-family: serif;
+  text-align: center;
+ }
+ #ideas {
+  color: green;
+  font-family: serif;
+  font-size: 15px;
+ }
+ #pup {
+  border: 1px solid #ddd;
+border-radius: 6px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+height: 20%;
+ }
+ #pupmind {
+  color: green;
+  text-align: center;
+ }
+#animation {
+  background-color: rgb(0, 255, 0);
+  position:absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  animation: spin 5s 2s  ;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 10%;
+}
+
+@keyframes spin {
+  from{
+    height: 100px;
+    width: 100px;
+    left: 0%;
+    rotate: 0deg;
+    border-radius: 15px;
+  }
+  to{
+    border-radius: 0px;
+    height: 90px;
+    width: 250px;
+    top: 2px;
+    left: 50%;
+    rotate: 360deg;
+  }
+}
+@keyframes spin2 {
+  from{
+    height: 100px;
+    width: 100px;
+    right: 0%;
+    rotate: 0deg;
+    border-radius: 15px;
+  }
+  to{
+    border-radius: 0px;
+    top: 2px;
+    height :90px;
+    width: 150px;
+    right: 50%;
+    rotate: 360deg;
+  }
+}
+#animation2 {
+  background-color: rgb(0, 255, 0);
+  position:absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  animation: spin2 5s 2s ;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 10%;
+}
+@keyframes scroll1{
+  from{
+    top: 2px;
+    height :90px;
+    width: 150px;
+    right: 50%;
+  }
+  to{
+    top: 15px;
+
+  }
+}

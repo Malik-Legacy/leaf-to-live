@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+   <link rel="stylesheet" href="style.css">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leaf to live</title>
+    <link rel="icon" type="image/x-icon" href="leaf to live.png">
+</head>
+<body id="body">
+  <div id="animation"></div>
+  <div id="animation2"></div>
+    <h1 id="title">Quit </h1><h1 id="title2">Smoking</h1>
+    <h3 id="made">Made By Malik</h3>
+    <br>
+    <h3 id="inputtext">enter how many cigrattes you consume in a day:</h3>
+    <input id="input" placeholder="only enter number">
+    <button id="sumbit">start tracking</button>
+    <br>
+    <br>
+    <div id="timetabel">        
+      <div id="day1">
+      <h5>day 1</h5>
+      <h5 id=0>1</h5>
+    </div>
+    <div id="day2">
+      <h5>day2</h5>
+      <h5 id=1>1</h5>
+    </div>
+    <div id="day3">
+      <h5>day3</h5>
+      <h5 id=2>1</h5>
+    </div>
+    <div id="day4">
+      <h5>day4</h5>
+      <h5 id=3>1</h5>
+      </div>
+      <div id="day5">
+        <h5>day5</h5>
+        <h5 id=4>1</h5>
+      </div>
+      <div id="day6">
+        <h5>day6</h5>
+        <h5 id=5>1</h5>
+      </div>
+      <div id="day7">
+        <h5>day7</h5>
+        <h5 id=6>1</h5>
+      </div>
+      <div id="day8">
+        <h5>day8</h5>
+        <h5 id=7>1</h5>
+      </div>
+    </div>
+
+    <script>
+        console.log("script loaded");
+        let btn = document.getElementById("sumbit");
+        btn.addEventListener("click", function(){
+          let daysToQuit = document.getElementById("input").value;
+          console.log(daysToQuit);
+          for (let i = 0; i < 8; i++){
+            let day = document.getElementById(i);
+            console.log(day.innerHTML);
+            if (i<=daysToQuit){
+                day.innerHTML = daysToQuit - i;
+            } else {
+                day.innerHTML = 0;
+            }
+        }
+        });
+    
+      </script>
+      <h3 id="queot">"never let your hope down the world is on hope"</h3>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <h3 id="headingpg2">How it works:</h3>
+      <div id="ideas">
+      <p>it gives you only  8 days mark try it for 8 days then for a week try to control and dont drink any cigrates and then see that whats your progress and then again make a 8 days mark and try follow it reapet it for 6 months and we are nearly sure you will be down to 1 sigrate a day or 0 </p>
+       <p> how to control your cravings</p>
+        <p>find a thing or any food that you like and eat it when you feel like smoking</p>
+        <p>it can be coke</p>
+        <p>pizza</p>
+        <p>coffe</p>
+        <p>candy</p>
+        <p>etc.</p>
+        <p>try yoga and meditation</p>
+        <p> or </p>
+        <p> heavy weight lifting </p>
+      </div>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <img  id="pup" src="https://i.pinimg.com/736x/11/6f/d0/116fd0fbf4254967f4636ec8426f1aed.jpg">
+      <h3 id="pupmind">you have to leave smoking for me!</h3>
+      
+</body>
+</html>
